@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    margin: 0;
+}
+
+.container {
+    max-width: 50%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border: solid white;
+}
+
+.reg {
+    max-width: 25%;
+    margin-left: auto;
+    border: solid blue;
+    position: absolute;
+    right: 1%;
+    top: 6px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.container-2 {
+    display: flex;
+    border: solid grey;
+    max-width: 50%;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+img {
+    width: 25%;
+}
+figcaption {
+    display: block;
+}
+rect {
+    color: blue;
+}
+
+.logo {
+    border: solid blueviolet;
+    width: 70%;
+
+}
